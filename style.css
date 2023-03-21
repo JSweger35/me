@@ -26,6 +26,10 @@ body {
     align-items: start;
     width: 400px;
   }
+
+  .headtwo{
+    display: flex;
+  }
   
   .secondary{
     font-size: 18px;
@@ -94,6 +98,7 @@ body {
     border: 0px;
     width: 80px;
     height: 20px;
+    margin: 5px;
   }
 
   .quote{
@@ -105,7 +110,17 @@ body {
   .top {
     display:flex;
     font-size: small;
-    justify-content: space-between;
-    align-items: end;
+  }
+
+  .logo{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+  }
+
+  .toplinks{
+    display: flex;
     flex-direction: row;
+    align-items: end;
+    justify-content: end;
   }
