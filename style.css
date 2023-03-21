@@ -110,17 +110,20 @@ body {
   .top {
     display:flex;
     font-size: small;
+    justify-content: space-evenly;
+    height: 400px;
   }
 
   .logo{
     display: flex;
     align-items: left;
     justify-content: center;
+    width: 400px;
   }
 
   .toplinks{
     display: flex;
     flex-direction: row;
-    align-items: end;
-    justify-content: end;
+    align-items: start;
+    margin: 10px;
   }
