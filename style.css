@@ -113,25 +113,35 @@ body {
     height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
     
   }
 
   .inlay{
     align-items: center;
+    justify-content: center;
     background-color: #3882f6;
     border-radius: 15px;
     width: max-10px;
+    height: 100px;
   }
 
   .fourhead{
     display: flex;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
   }
 
   .fourbody{
     display: flex;
-    justify-content: center;
+    //justify-content: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .top {
